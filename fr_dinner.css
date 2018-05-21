@@ -51,6 +51,11 @@ input[type="checkbox"]:checked + span.norm {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }
+.list div:active {
+    background: #e87e7a;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
 div.name {
     background: #4A4F56;
     border: none;
@@ -59,7 +64,7 @@ div.name {
     padding: 1px;
 
 }
-.bon {
+footer {
     box-sizing: border-box;
     color: #e87e7a;
     text-align: center;
@@ -69,6 +74,7 @@ div.name {
     padding: 15px;
     margin-top: 3%;
 }
-span.little {
+.little {
     font-size: 12px;
+    color: #B5A8B2;
 }
