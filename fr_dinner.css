@@ -1,6 +1,8 @@
 *{
     transition: all .1s ease-in;
     font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+    padding: 0;
+    border: 0;
 
 }
 div {
@@ -9,7 +11,7 @@ div {
 html {
     box-sizing: border-box;
     background: #3b3f45;
-    border: solid 10px;
+    border: solid 15px;
     border-color: white;
     height: 100%;
     padding: 0;
@@ -18,8 +20,7 @@ body {
     /*background: black;
     border: solid 50px;
     border-color: white;*/
-    padding: 0;
-    border: 0;
+
 }
 .list div {
     text-align: left;
@@ -40,23 +41,22 @@ body {
 .grey {
     background: #7a7593;
 }
-div:checked {
+input[type="checkbox"]:checked + span.norm {
     text-decoration: line-through;
+    color: #A19CB2;
 }
+
 .list div:hover {
     background: #625e77;
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }
-.name {
-    background: dimgrey;
+div.name {
+    background: #4A4F56;
     border: none;
-   /* height: 100%; */
     color: #eb7e7f;
     text-align: center;
-    border: 0;
-    padding: 15px;
-    margin: 0;
+    padding: 1px;
 
 }
 .bon {
@@ -67,5 +67,8 @@ div:checked {
     margin-right: 15%;
     background: #4a4f56;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 3%;
+}
+span.little {
+    font-size: 12px;
 }
